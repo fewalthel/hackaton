@@ -28,8 +28,8 @@ const Task: React.FC = () => {
 
                 <div className="answers-container">
                     <div className="button-row">
-                        <button onClick={handleButtonClick} className="button-picture"><img src="./src/assets/apple.png"/></button>
-                        <button className="button-picture"><img src="./src/assets/cup.png"/></button>
+                        <button onClick={handleButtonClick} className="button-picture"><img src="./public/apple.png"/></button>
+                        <button className="button-picture"><img src="./public/cup.png"/></button>
                     </div>
 
                     <div className="text-row">
@@ -38,8 +38,8 @@ const Task: React.FC = () => {
                     </div>
 
                     <div className="button-row">
-                        <button className="button-picture"><img src="./src/assets/pie.png"/></button>
-                        <button className="button-picture"><img src="./src/assets/banana.png"/></button>
+                        <button className="button-picture"><img src="./public/pie.png"/></button>
+                        <button className="button-picture"><img src="./public/banana.png"/></button>
                     </div>
 
                     <div className="text-row">
@@ -66,7 +66,7 @@ const Task: React.FC = () => {
             <div className="window">
                 {showPopup && <div className="popup">
 
-                        <img src="./src/assets/barsik.png"/>
+                        <img src="./public/barsik.png"/>
                         <h3>Правильно! +1 балл</h3>
                     <Link to="/task"><button type="button" className="button-next" onClick={handleButtonClick}>Супер!</button></Link>
 

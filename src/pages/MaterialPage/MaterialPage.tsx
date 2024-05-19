@@ -8,7 +8,7 @@ const MaterialPage: React.FC = () => {
         <div className="container">
             <Header />
             <div className="barsik">
-                <img src="./src/assets/barsik.png" alt="Barsik" />
+                <img src="./public/barsik.png" alt="Barsik" />
             </div>
             <div className="material-container">
                 <div className="content">

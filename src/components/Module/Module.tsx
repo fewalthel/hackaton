@@ -17,7 +17,7 @@ const Module: React.FC = () => {
 
         <div className="module-container">
         <div className="barsik">
-            <img src="./src/assets/barsik.png"/>
+            <img src="./public/barsik.png"/>
         </div>
             <ul className="level1">
 

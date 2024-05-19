@@ -6,7 +6,7 @@ const Header: React.FC = () => {
         <div className="header-container">
 
                 <div className="header-logo">
-                    <img src='../src/assets/flower-icon.png' alt="logo"/>
+                    <img src='../public/flower-icon.png' alt="logo"/>
                     <Link to="/"><h2>ТатарМилләте</h2></Link>
                 </div>
 
